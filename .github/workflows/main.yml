@@ -12,11 +12,6 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.lines.svg
-          token: ${{ secrets.LOWLIGHTERMETRICSFULL }}
-          base: repositories
-          plugin_lines: yes
-      - uses: lowlighter/metrics@latest
-        with:
           filename: github-metrics.svg
           token: ${{ secrets.LOWLIGHTERMETRICSFULL }}
+          plugin_lines: yes
