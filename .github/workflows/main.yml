@@ -1,4 +1,4 @@
-name: Metrics
+name: Lines of code changed
 on:
   # Schedule daily updates
   schedule: [{cron: "0 0 * * *"}]
@@ -12,4 +12,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: metrics.plugin.lines.svg
           token: ${{ secrets.LOWLIGHTERMETRICS }}
+          base: repositories
+          plugin_lines: yes
