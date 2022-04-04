@@ -1,1 +1,1 @@
-![Metrics](https://metrics.lecoq.io/anuraag-barde-shipsy)
+<img align="center" src="/github-metrics.svg" alt="Metrics" width="400">
